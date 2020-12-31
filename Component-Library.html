@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>Component - Library</title>
+    <link rel="stylesheet" href="css/Component-Library.css">
+    <link rel="stylesheet" href="css/lightslider.css">
+    <link rel="shortcut" href="images/fav icon.png">
+
+    <script src="js/JQuery3.3.1.js"></script>
+    <script src="js/lightslider.js"></script>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--navigation-------------->
+    <nav>
+        <!--logo--------------->
+        <a href="#" class="logo">
+            <img src="images/logoweb.PNG" />
+        </a>
+        <!--menu--btn----------------->
+        <input type="checkbox" class="menu-btn" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn">
+        <span class="nav-icon"></span>
+    </label>
+        <!--menu-------------->
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#1">Favourite</a></li>
+            <li><a href="#2">Musics</a></li>
+            <li><a href="#3">Movies</a></li>
+        </ul>
+        <!--search------------->
+        <div class="search">
+            <input type="text" placeholder="Find Your Favourtie Movies" />
+            <!--search-icon----------->
+            <i class="fas fa-search"></i>
+        </div>
+    </nav>
+    <section id="main">
+        <!--showcase----------------------->
+        <!--heading------------->
+        <h1 class="favourite-heading" id="1">favourite</h1>
+
+        <ul id="autoWidth" class="cs-hidden">
+
+            <!--box-1--------------------------->
+            <li class="item-a">
+                <!--showcase-box------------------->
+                <div class="favourite-box">
+                    <a href="#">
+                        <img src="images/s-1.jpg" /></a>
+                </div>
+            </li>
+            <li class="item-b">
+                <!--showcase-box------------------->
+                <div class="favourite-box">
+                    <a href="">
+                        <img src="images/s-2.jpg" /></a>
+                </div>
+            </li>
+            <li class="item-c">
+                <!--showcase-box------------------->
+                <div class="favourite-box">
+                    <a href="">
+                        <img src="images/s-3.jpg" /></a>
+                </div>
+            </li>
+            <li class="item-d">
+                <!--showcase-box------------------->
+                <div class="favourite-box">
+                    <a href="">
+                        <img src="images/s-4.jpeg" /></a>
+                </div>
+            </li>
+            <li class="item-e">
+                <!--showcase-box------------------->
+                <div class="favourite-box">
+                    <a href="">
+                        <img src="images/s-5.jpg" /></a>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="music">
+        <div class="music-heading">
+            <h2 id="2">Musics</h2>
+        </div>
+        <ul id="autoWidth2" class="cs-hidden">
+            <!--slide-box-1------------------>
+            <li class="item-a">
+                <a href="#">
+                    <div class="music-box">
+                        <!--img-------->
+                        <div class="music-b-img">
+                            <img src="images/m-1.jpg">
+                        </div>
+                        <!--text---------->
+                        <div class="music-b-text">
+                            <strong>Chúng ta của hiện tại</strong>
+                            <p>Singer: Sơn Tùng MTP</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="item-b">
+                <a href="#">
+                    <div class="music-box">
+                        <!--img-------->
+                        <div class="music-b-img">
+                            <img src="images/m-2.jpg">
+                        </div>
+                        <!--text---------->
+                        <div class="music-b-text">
+                            <strong>Đom đóm</strong>
+                            <p>Singer: Jack</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="item-c">
+                <a href="#">
+                    <div class="music-box">
+                        <!--img-------->
+                        <div class="music-b-img">
+                            <img src="images/m-3.jpg">
+                        </div>
+                        <!--text---------->
+                        <div class="music-b-text">
+                            <strong>Nàng Thơ</strong>
+                            <p>Singer: Hoàng Dũng</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="item-d">
+                <a href="#">
+                    <div class="music-box">
+                        <!--img-------->
+                        <div class="music-b-img">
+                            <img src="images/m-4.jpg">
+                        </div>
+                        <!--text---------->
+                        <div class="music-b-text">
+                            <strong>Đi về nhà</strong>
+                            <p>Singer: Đen Vâu | Justatee</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="item-e">
+                <a href="#">
+                    <div class="music-box">
+                        <!--img-------->
+                        <div class="music-b-img">
+                            <img src="images/m-5.jpg">
+                        </div>
+                        <!--text---------->
+                        <div class="music-b-text">
+                            <strong>Lạc Trôi</strong>
+                            <p>Singer: Sơn Tùng MTP</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="item-f">
+                <a href="#">
+                    <div class="music-box">
+                        <!--img-------->
+                        <div class="music-b-img">
+                            <img src="images/m-6.jpg">
+                        </div>
+                        <!--text---------->
+                        <div class="music-b-text">
+                            <strong>Hoa hải đường</strong>
+                            <p>Singer: Jack</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="item-g">
+                <a href="#">
+                    <div class="music-box">
+                        <!--img-------->
+                        <div class="music-b-img">
+                            <img src="images/m-7.jpg">
+                        </div>
+                        <!--text---------->
+                        <div class="music-b-text">
+                            <strong>Nếu là anh</strong>
+                            <p>Singer: The Men</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <div class="movies-heading">
+        <h2 id="3">Movies</h2>
+    </div>
+
+    <section id="movies-list">
+        <!--box-1------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="images/l-1.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Fast and Furious 1 (2001) | HDRip 1080p HD
+            </a>
+        </div>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="images/l-2.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Fast and Furious 2: 2 Fast 2 Furious (2003) | HDRip 1080p HD
+            </a>
+        </div>
+        <!--box-3------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="images/l-3.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Fast and Furious 3: Tokyo Drift (2006 | HDRip 1080p HD
+            </a>
+        </div>
+        <!--box-4------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="images/l-4.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Fast and Furious 4 (2009) | HDRip 1080p HD
+            </a>
+        </div>
+        <!--box-5------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="images/l-5.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Fast Five (2011) | HDRip 1080p HD
+            </a>
+        </div>
+        <!--box-6------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="images/l-6.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Fast And Furious 6 (2013) | HDRip 1080p HD
+            </a>
+        </div>
+        <!--box-7------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="images/l-7.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Fast and Furious 7 (2015) | HDRip 1080p HD
+            </a>
+        </div>
+        <!--box-8------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="images/l-9.jpg">
+            </div>
+            <!--text--------->
+            <a href="#">
+                Fast & Furious Presents: Hobbs & Shaw (2019) | HDRip 1080p HD
+            </a>
+        </div>
+    </section>
+    <div class="btns">
+        <a href="#">Previous</a>
+        <a href="#">Next</a>
+    </div>
+    <footer>
+        <div class="about-me">
+            <h1>About Me</h1>
+            <div class="about">
+                <div>
+                    <ul>
+                        <li>
+                            <p>Sing viên : </p>
+                            <p>Lớp :</p>
+                        </li>
+                        <li>
+                            <p>birth of day :</p>
+                        </li>
+                        <li>
+                            <p>addr :</p>
+                        </li>
+                        <li>
+                            <p>Phone : </p>
+                        </li>
+                        <li>
+                            <p>Email :</p>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <p>Nguyễn Văn Giang </p>
+                            <p>18CNTT1</p>
+                        </li>
+                        <li>
+                            <p>28 - 05 - 2000</p>
+                        </li>
+                        <li>
+                            <p>Núi Thành - Quảng Nam</p>
+                        </li>
+                        <li>
+                            <p>0385147510 </p>
+                        </li>
+                        <li>
+                            <p>nvg.it1.pro@gmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <h1>Social</h1>
+            <div class="soc">
+                <div id="soc-1">
+                    <ul>
+                        <li>
+                            <p> Facebook :</p>
+                        </li>
+                        <li>
+                            <p> instagram :</p>
+                        </li>
+                        <li>
+                            <p> Github :</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="soc-2">
+                    <ul>
+                        <li>
+                            <p><a href="">Giang Nguyễn</a></p>
+                        </li>
+
+
+                        <li>
+                            <p><a href="">Gonl.2818</a></p>
+                        </li>
+
+                        <li>
+                            <p><a href="">Giangnguyen05</a></p>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $(document).ready(function() {
+            $('#autoWidth,#autoWidth2').lightSlider({
+                autoWidth: true,
+                loop: true,
+                onSliderLoad: function() {
+                    $('#autoWidth,#autoWidth2').removeClass('cS-hidden');
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
